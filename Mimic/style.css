@@ -94,6 +94,8 @@ h2 {
   grid-template-areas: 
   "item1 item2 item3 "
   "item4 item5 item6 ";
+  row-gap: 2px;
+  column-gap: 20px;
 
 }
 .item1{
@@ -127,4 +129,8 @@ h2 {
 .project-title {
     font-size: 2rem;
     padding: 2rem 0.5rem;
+}
+.code {
+  color:gray;
+  transition: color 0.3s ease-out;
 }
